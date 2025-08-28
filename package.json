@@ -1,0 +1,13 @@
+{
+  "name": "docx-templates-swapi",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node client.js"
+  },
+  "dependencies": {
+    "docx-templates": "^4.0.0",
+    "express": "^4.21.2",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
