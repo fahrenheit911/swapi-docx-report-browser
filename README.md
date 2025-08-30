@@ -72,4 +72,4 @@ For other static hosting services (Netlify, Vercel, etc.):
 ## Live Demo
 
 The project is available on GitHub Pages:  
-👉 [SWAPI Character Report Generator](https://username.github.io/repo-name/)
+👉 [SWAPI Character Report Generator](https://fahrenheit911.github.io/swapi-docx-report-browser/)
