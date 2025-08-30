@@ -12,8 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          with:
-            token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set Git user
         run: |
