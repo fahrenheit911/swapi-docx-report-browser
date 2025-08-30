@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SWAPI Character Report</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.65.3/docxtemplater.js"></script>
+    <script src="https://unpkg.com/pizzip@3.2.0/dist/pizzip.js"></script>
+    <script src="https://unpkg.com/pizzip@3.2.0/dist/pizzip-utils.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="utils.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>SWAPI Character Report Generator</h1>
+
+    <div class="field">
+      <label for="characterId">Character ID (1-82):</label>
+      <input type="number" id="characterId" min="1" max="82" value="1" />
+    </div>
+
+    <div class="field">
+      <label for="doc">Upload template.docx:</label>
+      <input type="file" id="doc" accept=".docx" />
+    </div>
+
+    <button class="primary" onclick="generate()">Generate report</button>
+  </body>
+</html>

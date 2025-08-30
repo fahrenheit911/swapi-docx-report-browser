@@ -1,0 +1,8 @@
+{
+  "name": "docx-templates-swapi",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "start index.html"
+  },
+  "dependencies": {}
+}
