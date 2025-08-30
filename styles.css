@@ -23,6 +23,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+.field {
+  margin-bottom: 16px;
+}
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -37,6 +41,33 @@ input[type='number'] {
   border-radius: 5px;
   font-size: 16px;
   box-sizing: border-box;
+}
+
+input[type='file'] {
+  width: 100%;
+  padding: 10px;
+  border: 2px dashed #cfd8dc;
+  border-radius: 6px;
+  background: #fff;
+  color: #555;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 0 16px;
+}
+
+input[type='file']::file-selector-button {
+  margin-right: 16px;
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='file']::file-selector-button:hover {
+  background: #0056b3;
+  border-color: #0056b3;
 }
 
 input[type='number']:focus {
