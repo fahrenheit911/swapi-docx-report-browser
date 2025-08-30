@@ -12,7 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          persist-credentials: true
+          with:
+            token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set Git user
         run: |
