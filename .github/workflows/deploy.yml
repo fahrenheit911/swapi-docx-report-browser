@@ -20,7 +20,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Deploy to gh-pages
-        run: git checkout --orphan gh-pages
+        run: |
+          git checkout --orphan gh-pages
           git add -A
           git commit -m "Deploy static site"
           git push origin gh-pages --force
